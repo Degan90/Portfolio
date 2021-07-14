@@ -1,38 +1,181 @@
+body,html{
+  background-color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+ 
+
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home{
+  /* background-image: url("../src/components/img/background.jpg");
+  background-size: cover; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  
+}
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 300px;
+  margin: auto;
+  padding-top:50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+p{
+  color: aliceblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+  font-size: 40px;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: aliceblue;
 }
 
-.App-link {
-  color: #61dafb;
+.firstImage{
+  width: 90%;
+  height: 80%;
+  margin-bottom: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+  width: 500px;
+  margin: auto;
+  color: aliceblue;
+  padding-top: 200px;
+  
+}
+.allAbout{
+  padding-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.aboutDes{
+  width: 600px;
+  margin: auto;
+}
+.aboutImage{
+  width: 90%;
+  height: 100%;
+}
+.projectTitle{
+  width: 70%;
+  margin: auto;
+  padding-top: 50px;
+}
+.projectImage{
+  width: 70%;
+  height: 70%
+  
+}
+.project1{
+
+  padding-top: 100px;
+}
+.projectDes{
+  width: 70%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.allProject{
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(700px,1fr));
+  grid-auto-rows: minmax(20px,auto);
+  grid-gap: 1rem;
+  margin: 0 auto;
+}
+.project2{
+
+  padding-top: 300px;
+}
+
+
+.projectImage:hover{
+  transform: scale(1.2);
+  
+  box-shadow: 10px 50px 100px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(255, 255, 255, 0.22);
+;
+  
+  
+}
+.titlePro{
+  font-size: 70px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+h2{
+  font-size: 30px;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: aliceblue;
+}
+
+.allContact{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
+  
+}
+.icon{
+  background: transparent;
+  width: 30px;
+  margin-right: 20px;
+  padding-top: 40px;
+
+}
+
+
+.information{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 60%;
+  padding-bottom: 30px;
+  border-bottom: 2px solid white;
+  
+  
+
+  
+}
+h4{
+  color: aliceblue;
+  
+}
+h4:hover{
+  transform: scale(1.3);
+  filter: brightness(120%);
+ 
+}
+h5{
+  color: aliceblue;
+}
+label{
+  color: aliceblue;
+}
+.fform{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  
+  justify-content: space-around;
+}
+.info{
+display: flex;
+flex-direction: column;
+width: 60%;
+margin-bottom: 30px;
+text-align: left;
+}
+.input{
+  padding: 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color:  black
 }
