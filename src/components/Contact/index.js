@@ -27,9 +27,9 @@ const Contact = () => {
 
 
             </div>
-            <div>
+            {/* <div>
                 <Form />
-            </div>
+            </div> */}
 
         </div>
     )

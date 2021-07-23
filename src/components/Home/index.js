@@ -4,13 +4,18 @@ import linkedin from "../img/linkedin.png"
 import email from "../img/email.png"
 import phone from "../img/phone.png"
 import github from "../img/github.png"
-
+import About from "../About";
+import Project from "../Project";
+import Contact from "../Contact";
+import pourya from "../img/pourya.jpg"
+import pourya1 from "../img/pourya1.jpg"
+import orange from "../img/orange.jpg"
 const Home = () => {
-    return (
+    return (<div>
         <div className="home">
             <div className="title">
                 <div>
-                    <h1>My Name is Pourya Dehghan</h1>
+                    <h1 className="name">Pourya Dehghan</h1>
                     <h2>I am a software Engineer</h2>
                     <p>I am based in Atlanta</p>
                 </div>
@@ -50,8 +55,11 @@ const Home = () => {
             </div>
 
             <div>
-                {/* <img className="firstImage" src={background} /> */}
+                <img className="firstImage" src={pourya1} />
             </div>
+        </div>
+            
+        
         </div>
 
 
