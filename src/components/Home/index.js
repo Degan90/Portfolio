@@ -10,13 +10,15 @@ import Contact from "../Contact";
 import pourya from "../img/pourya.jpg"
 import pourya1 from "../img/pourya1.jpg"
 import orange from "../img/orange.jpg"
+import Image from 'react-bootstrap/Image'
+import Col from 'react-bootstrap/Col';
 const Home = () => {
     return (<div>
         <div className="home">
             <div className="title">
                 <div>
                     <h1 className="name">Pourya Dehghan</h1>
-                    <h2>I am a software Engineer</h2>
+                    <h1 className="job">Full Stack Developer</h1>
                     <p>I am based in Atlanta</p>
                 </div>
                 <div className="information">
@@ -55,7 +57,10 @@ const Home = () => {
             </div>
 
             <div>
-                <img className="firstImage" src={pourya1} />
+            <Col xs={6} md={4}>
+                <Image className="firstImage" src={pourya} rounded />
+            </Col>
+                {/* <img className="firstImage" src={pourya} /> */}
             </div>
         </div>
             

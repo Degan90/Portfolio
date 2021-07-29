@@ -16,6 +16,8 @@ function App() {
       <Project />
       <Contact />
 
+      
+
       {/* <Route exact path="/" component={Home}/>
       
       <Route path="/project" component={Project}/>
