@@ -1,28 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap");
 
-/* .App {
-  text-align: center;
-} */
+
 .home {
-  /* background-image: url("../src/components/img/background.jpg");
-  background-size: cover; */
+
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
   text-align: left;
   padding-top: 200px;
   padding-bottom: 200px;
   width: 80%;
   height: 800px;
-  /* border-bottom: rgba(201, 129, 4, 0.194) solid; */
+  
 }
 
-nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin: auto;
-  padding-top: 50px;
-}
 
 a {
   color: aliceblue;
@@ -48,10 +38,10 @@ h5 {
 }
 
 .title {
-  width: 800px;
+  width: 90%;
   margin: auto;
   color: aliceblue;
-  /* padding-top: 200px; */
+
 }
 .allAbout {
   display: grid;
@@ -312,6 +302,12 @@ html {
     color: aliceblue;
   
   }
+  .title {
+    width: 100%;
+    margin: auto;
+    color: aliceblue;
+  
+  }
   
   h1 {
     font-size: 30px;
@@ -322,18 +318,9 @@ html {
     font-size: 10px;
   }
   
-  .firstImage {
-    width: 900px;
-    margin-left: 20%;
-    margin-top: 20%;
-  }
+
   
-  .title {
-    width: 800px;
-    margin: auto;
-    color: aliceblue;
-    /* padding-top: 200px; */
-  }
+
   .allAbout {
     display: grid;
     grid-template-columns: 1fr;
@@ -365,21 +352,18 @@ html {
   
   .project {
     display: grid;
-    
     text-align: center;
-    
     margin: auto;
     margin-bottom: 10%;
     margin-right: 5%;
     margin-left: 5%;
-  
     position: relative;
     gap: 10px;
     -webkit-box-align: center;
     align-items: center;
     box-shadow: 2px 2px rgba(57, 104, 2, 0.235),
       -3px 0 0.4em rgba(4, 92, 33, 0.269);
-    height: 420px;
+    height: 520px;
   }
   .projectImage {
     width: 70%;
@@ -495,6 +479,242 @@ html {
     color: rgb(128, 249, 168);
   }
   
+  .title {
+    width: 90%;
+    margin: auto;
+    color: aliceblue;
+  
+  }
+  .skills {
+
+    margin-top: 10%;
+  }
+  .skillTitle {
+    font-size: 25px;
+    color: rgb(210, 254, 224);
+  }
+  .aboutIcon {
+    width: 12%;
+    margin-right: 10px;
+    margin-bottom: 10%;
+  }
+  
+  .contact {
+    text-align: center;
+    width: 90%;
+  }
+  .contactTitle {
+    color: rgb(128, 249, 168);
+    font-size: 30px;
+  }
+  .ap{
+    color: black;
+    font-size: 9px;
+  }
+
+  body,
+  html {
+    background-color: rgb(0, 0, 0);
+  }
+}
+
+
+
+
+
+
+@media (max-width:375px) {
+  .home {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 300px;
+    height: 80%;
+    margin: auto;
+ 
+  }
+
+  
+  a {
+    color: aliceblue;
+    text-decoration: none;
+    
+  }
+  p {
+    color: aliceblue;
+  
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-family: "Hind Siliguri", sans-serif;
+    color: aliceblue;
+  }
+  h5 {
+    font-size: 10px;
+  }
+  
+
+  
+
+  .allAbout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 250px;
+    height: 800px;
+  }
+  .aboutDes {
+    margin-top: 10%;
+    font-size: 10px;
+  }
+  .aboutImage {
+    width: 70%;
+    margin-left: 20%;
+    border-radius: 35px;
+    border: 3px solid white;
+    margin-top: 20%;
+  }
+  
+  .projectTitle {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 35%;
+    color: rgb(128, 249, 168);
+  }
+  
+  .project {
+    display: grid;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+    gap: 10px;
+    -webkit-box-align: center;
+    align-items: center;
+    box-shadow: 2px 2px rgba(57, 104, 2, 0.235),
+      -3px 0 0.4em rgba(4, 92, 33, 0.269);
+    height: 520px;
+  }
+  .projectImage {
+    width: 70%;
+  
+    border-radius: 30px;
+    border: rgba(240, 248, 255, 0.475) solid;
+    position: relative;
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    z-index: 1;
+  }
+  .projectDes {
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  .allProject {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+
+  }
+
+
+
+  h2 {
+    font-size: 30px;
+    font-family: "Hind Siliguri", sans-serif;
+    color: aliceblue;
+  }
+  
+  .allContact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .icon {
+    background: transparent;
+    width: 20px;
+    margin-right: 10px;
+    padding-top: 40px;
+  }
+  
+  .information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 30%;
+    padding-bottom: 30px;
+    border-bottom: 2px solid white;
+  }
+  h4 {
+    color: aliceblue;
+  }
+  h4:hover {
+    transform: scale(1.3);
+    filter: brightness(120%);
+  }
+  h5 {
+    color: aliceblue;
+  }
+  label {
+    color: aliceblue;
+  }
+  .fform {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  
+    justify-content: space-around;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .input {
+    padding: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: black;
+  }
+  .name {
+    font-size: 30px;
+    font-family: "Fjalla One", sans-serif;
+  }
+  .job {
+    font-size: 25px;
+    opacity: 0.6;
+    font-family: "Fjalla One", sans-serif;
+  }
+  .myName {
+    font-size: 15px;
+    font-family: "Fjalla One", sans-serif;
+    color: rgb(128, 249, 168);
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+  .aboutTitle {
+    font-size: 30px;
+    color: rgb(128, 249, 168);
+  }
+  
 
   .skills {
 
@@ -527,4 +747,10 @@ html {
   html {
     background-color: rgb(0, 0, 0);
   }
+  .btnHome{
+   width: 10px;
+   margin-top: 30px;
+  
+  }
+  
 }
