@@ -123,17 +123,7 @@ h5 {
   /* border: 2px solid rgba(255, 255, 255, 0.509); */
   border-radius: 5px;
 }
-.projectDes1 {
-  width: 90%;
-  text-align: left;
-  padding: 25px;
-  z-index: 1;
-  margin: auto;
-  background-color: rgb(2, 74, 40);
-  position: relative;
-  border: 2px solid rgba(255, 255, 255, 0.509);
-  border-radius: 5px;
-}
+
 .allProject {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -146,12 +136,9 @@ h5 {
   width: 70%;
   border-bottom: rgba(201, 129, 4, 0.194) solid; */
 }
-.project2 {
-  padding-top: 300px;
-}
 
 .projectImage:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 
   box-shadow: 10px 50px 100px rgba(255, 255, 255, 0.25),
     0 10px 10px rgba(255, 255, 255, 0.22);
@@ -285,6 +272,10 @@ grid-template-rows: 1fr 1fr; */
 body,
 html {
   background-color: rgb(0, 0, 0);
+}
+.btnHome{
+  margin-top: 30%;
+
 }
 
 
