@@ -17,9 +17,9 @@ const Home = () => {
         <div className="home">
             <div className="title">
                 <div>
+                    <h3 className="myName">Hi , my name is</h3>
                     <h1 className="name">Pourya Dehghan</h1>
-                    <h1 className="job">Full Stack Developer</h1>
-                    <p>I am based in Atlanta</p>
+                    <h1 className="job">I build things for the web.</h1>
                 </div>
                 <div className="information">
 
@@ -56,12 +56,12 @@ const Home = () => {
 
             </div>
 
-            <div>
+            {/* <div>
             <Col xs={6} md={4}>
                 <Image className="firstImage" src={pourya} rounded />
             </Col>
-                {/* <img className="firstImage" src={pourya} /> */}
-            </div>
+                <img className="firstImage" src={pourya} />
+            </div> */}
         </div>
             
         
