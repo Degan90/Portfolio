@@ -1,18 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap");
 
-
 .home {
-
   display: grid;
   text-align: left;
   padding-top: 200px;
   padding-bottom: 200px;
   width: 80%;
   height: 800px;
-  
 }
-
 
 a {
   color: aliceblue;
@@ -41,7 +37,6 @@ h5 {
   width: 70%;
   margin: auto;
   color: aliceblue;
-
 }
 .allAbout {
   display: grid;
@@ -51,20 +46,19 @@ h5 {
   width: 60%;
   margin: auto;
   padding-bottom: 250px;
-  /* background-image: url("../src/components/img/about.jpg");
-  background-size: cover; */
   height: 500px;
 }
 .aboutDes {
   width: 80%;
   margin-top: 10%;
+  font-size: 25px;
 }
 .aboutImage {
   width: 70%;
   margin-left: 20%;
   border-radius: 35px;
   border: 3px solid white;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .projectTitle {
@@ -76,10 +70,8 @@ h5 {
 }
 
 .project {
-  display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
+  display: grid; 
   text-align: center;
-  /* grid-template-columns: 1fr 1fr; */
   margin: auto;
   margin-bottom: 10%;
   margin-right: 5%;
@@ -108,9 +100,8 @@ h5 {
   padding: 25px;
   z-index: 1;
   margin: auto;
-  /* background-color: rgb(3, 31, 18); */
+
   position: relative;
-  /* border: 2px solid rgba(255, 255, 255, 0.509); */
   border-radius: 5px;
 }
 
@@ -121,10 +112,6 @@ h5 {
   width: 70%;
   margin: auto;
   justify-content: space-between;
-  /* margin: auto;
-  margin-top: 200px;
-  width: 70%;
-  border-bottom: rgba(201, 129, 4, 0.194) solid; */
 }
 
 .projectImage:hover {
@@ -221,20 +208,11 @@ h5 {
   color: rgb(128, 249, 168);
 }
 
-/* 
-section{
-  margin: 0px auto;
-  padding: 100px 0px;
-  max-width: 1000px;
-} */
-
 .skills {
-  /* display: grid;
-grid-template-rows: 1fr 1fr; */
   margin-top: 10%;
 }
 .skillTitle {
-  font-size: 25px;
+  font-size: 35px;
   color: rgb(210, 254, 224);
 }
 .aboutIcon {
@@ -242,7 +220,17 @@ grid-template-rows: 1fr 1fr; */
   margin-right: 10px;
   margin-bottom: 10%;
 }
+.denj {
+  height: 350px;
+  border-radius: 30px;
+  margin-left: 20%;
+}
+.denj:hover {
+  transform: scale(1.05);
 
+  box-shadow: 10px 50px 100px rgba(255, 255, 255, 0.25),
+    0 10px 10px rgba(255, 255, 255, 0.22);
+}
 .contact {
   text-align: center;
 }
@@ -263,9 +251,11 @@ body,
 html {
   background-color: rgb(0, 0, 0);
 }
-.btnHome{
-  margin-top: 30%;
-
+.btnHome {
+  margin-top: 20%;
+}
+.firstInfo{
+  padding-top: 50px;
 }
 
 
@@ -279,36 +269,28 @@ html {
 
 
 
-
-
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .home {
-
     padding-top: 100px;
     padding-bottom: 100px;
     width: 300px;
     height: 80%;
     margin: auto;
- 
   }
 
-  
   a {
     color: aliceblue;
     text-decoration: none;
-    
   }
   p {
     color: aliceblue;
-  
   }
   .title {
     width: 100%;
     margin: auto;
     color: aliceblue;
-  
   }
-  
+
   h1 {
     font-size: 30px;
     font-family: "Hind Siliguri", sans-serif;
@@ -317,9 +299,6 @@ html {
   h5 {
     font-size: 10px;
   }
-  
-
-  
 
   .allAbout {
     display: grid;
@@ -341,7 +320,7 @@ html {
     border: 3px solid white;
     margin-top: 20%;
   }
-  
+
   .projectTitle {
     width: 80%;
     margin: auto;
@@ -349,7 +328,7 @@ html {
     margin-top: 35%;
     color: rgb(128, 249, 168);
   }
-  
+
   .project {
     display: grid;
     text-align: center;
@@ -367,7 +346,7 @@ html {
   }
   .projectImage {
     width: 70%;
-  
+
     border-radius: 30px;
     border: rgba(240, 248, 255, 0.475) solid;
     position: relative;
@@ -390,17 +369,14 @@ html {
     width: 90%;
     margin: auto;
     justify-content: space-between;
-
   }
-
-
 
   h2 {
     font-size: 30px;
     font-family: "Hind Siliguri", sans-serif;
     color: aliceblue;
   }
-  
+
   .allContact {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -414,7 +390,7 @@ html {
     margin-right: 10px;
     padding-top: 40px;
   }
-  
+
   .information {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -439,7 +415,7 @@ html {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-  
+
     justify-content: space-around;
   }
   .info {
@@ -470,7 +446,7 @@ html {
     font-family: "Fjalla One", sans-serif;
     color: rgb(128, 249, 168);
   }
-  
+
   h5 {
     font-size: 16px;
   }
@@ -478,15 +454,13 @@ html {
     font-size: 30px;
     color: rgb(128, 249, 168);
   }
-  
+
   .title {
     width: 90%;
     margin: auto;
     color: aliceblue;
-  
   }
   .skills {
-
     margin-top: 10%;
   }
   .skillTitle {
@@ -498,7 +472,7 @@ html {
     margin-right: 10px;
     margin-bottom: 10%;
   }
-  
+
   .contact {
     text-align: center;
     width: 90%;
@@ -507,7 +481,7 @@ html {
     color: rgb(128, 249, 168);
     font-size: 30px;
   }
-  .ap{
+  .ap {
     color: black;
     font-size: 9px;
   }
@@ -518,33 +492,23 @@ html {
   }
 }
 
-
-
-
-
-
-@media (max-width:420px) {
+@media (max-width: 420px) {
   .home {
-
     padding-top: 100px;
     padding-bottom: 100px;
     width: 300px;
     height: 80%;
     margin: auto;
- 
   }
 
-  
   a {
     color: aliceblue;
     text-decoration: none;
-    
   }
   p {
     color: aliceblue;
-  
   }
-  
+
   h1 {
     font-size: 30px;
     font-family: "Hind Siliguri", sans-serif;
@@ -553,9 +517,6 @@ html {
   h5 {
     font-size: 10px;
   }
-  
-
-  
 
   .allAbout {
     display: grid;
@@ -577,7 +538,7 @@ html {
     border: 3px solid white;
     margin-top: 20%;
   }
-  
+
   .projectTitle {
     width: 80%;
     margin: auto;
@@ -585,7 +546,7 @@ html {
     margin-top: 35%;
     color: rgb(128, 249, 168);
   }
-  
+
   .project {
     display: grid;
     text-align: center;
@@ -603,7 +564,7 @@ html {
   }
   .projectImage {
     width: 70%;
-  
+
     border-radius: 30px;
     border: rgba(240, 248, 255, 0.475) solid;
     position: relative;
@@ -626,19 +587,17 @@ html {
     width: 90%;
     margin: auto;
     justify-content: space-between;
-
   }
-.btnNav{
-  width: 100px;
-}
-
+  .btnNav {
+    width: 100px;
+  }
 
   h2 {
     font-size: 30px;
     font-family: "Hind Siliguri", sans-serif;
     color: aliceblue;
   }
-  
+
   .allContact {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -652,7 +611,7 @@ html {
     margin-right: 10px;
     padding-top: 40px;
   }
-  
+
   .information {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -677,7 +636,7 @@ html {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-  
+
     justify-content: space-around;
   }
   .info {
@@ -708,7 +667,7 @@ html {
     font-family: "Fjalla One", sans-serif;
     color: rgb(128, 249, 168);
   }
-  
+
   h5 {
     font-size: 16px;
   }
@@ -716,10 +675,8 @@ html {
     font-size: 30px;
     color: rgb(128, 249, 168);
   }
-  
 
   .skills {
-
     margin-top: 10%;
   }
   .skillTitle {
@@ -731,7 +688,7 @@ html {
     margin-right: 10px;
     margin-bottom: 10%;
   }
-  
+
   .contact {
     text-align: center;
     width: 90%;
@@ -740,7 +697,7 @@ html {
     color: rgb(128, 249, 168);
     font-size: 30px;
   }
-  .ap{
+  .ap {
     color: black;
     font-size: 9px;
   }
@@ -749,10 +706,19 @@ html {
   html {
     background-color: rgb(0, 0, 0);
   }
-  .btnHome{
-   width: 10px;
-   margin-top: 30px;
-  
+  .btnHome {
+    width: 8px;
+    margin-top: 30px;
   }
+  .denj {
+    height: 250px;
+    border-radius: 30px;
+    margin-left: 20%;
+  }
+  .denj:hover {
+    transform: scale(1.05);
   
+    box-shadow: 10px 50px 100px rgba(255, 255, 255, 0.25),
+      0 10px 10px rgba(255, 255, 255, 0.22);
+  }
 }
