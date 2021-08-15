@@ -38,7 +38,7 @@ h5 {
 }
 
 .title {
-  width: 90%;
+  width: 70%;
   margin: auto;
   color: aliceblue;
 
@@ -628,7 +628,9 @@ html {
     justify-content: space-between;
 
   }
-
+.btnNav{
+  width: 100px;
+}
 
 
   h2 {

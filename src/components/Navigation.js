@@ -23,7 +23,7 @@ function Navigation(props) {
 							<Nav.Link>Contact</Nav.Link>
 						</LinkContainer>
 						<LinkContainer to='/resume'>
-            <Button variant="outline-success" href="#">
+            <Button className="btnNav" variant="outline-success" href="#">
             Resume
           </Button>
 						</LinkContainer>
