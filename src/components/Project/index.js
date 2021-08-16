@@ -23,28 +23,26 @@ const Project = () => {
             <h2>Denj</h2>
             <div className="projectDes">
               <h5>
-                This is a full stack mobile application that i created it with React Native.
-                This application is about cozy places that users have been and they want to share 
-                with other people.
-
-
+                This is a full stack mobile application that i created it with
+                React Native. This application is about cozy places that users
+                have been and they want to share with other people.
               </h5>
               <div>
                 <a href="https://github.com/Degan90/Denj-client.git">
                   <img className="icon" src={greengh} />
                 </a>
-          <div>
-            <a target="_blank">
-            <img className="denj" src={denj} />
-            </a>
-          </div>
+                <div>
+                  <a target="_blank">
+                    <img className="denj" src={denj} />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="project">
           <div>
-            <h2>Agora 3</h2>
+            <h2>Agora</h2>
             <div className="projectDes">
               <h5>
                 This is the full stack appliacation that we created as a group.
@@ -52,17 +50,17 @@ const Project = () => {
                 topics and decriptions. Each forum has their own posts which is
                 fully functional.
               </h5>
+              <div>
+                <a href="https://github.com/SEIR-Angelica-Project-3/Agora-client.git">
+                  <img className="icon" src={greengh} />
+                </a>
+              </div>
+            </div>
             <div>
-              <a href="https://github.com/SEIR-Angelica-Project-3/Agora-client.git"   >
-                <img className="icon" src={greengh} />
+              <a href="https://agoraforum.netlify.app/" target="_blank">
+                <img className="projectImage" src={project3} />
               </a>
             </div>
-            </div>
-          <div>
-            <a href="https://agoraforum.netlify.app/" target="_blank">
-            <img className="projectImage" src={project3} />
-            </a>
-          </div>
           </div>
         </div>
         <div className="project">
@@ -75,17 +73,19 @@ const Project = () => {
               attributes of that hero.
             </h5>
             <div>
-              <a href="https://github.com/Degan90/Dota2-Heroes.git">
-                <img className="icon" src={greengh} />
-              </a>
+            <a href="https://github.com/Degan90/Dota2-Heroes.git">
+              <img className="icon" src={greengh} />
+            </a>
             </div>
           </div>
-
-          <div>
-            <a href="https://pedantic-edison-4080c1.netlify.app" target="_blank">
-              <img className="projectImage" src={heroes} />
-            </a>
-          </div>
+            <div>
+              <a
+                href="https://pedantic-edison-4080c1.netlify.app"
+                target="_blank"
+              >
+                <img className="projectImage" src={heroes} />
+              </a>
+            </div>
         </div>
         <div className="project">
           <div className="projectDes">
@@ -105,7 +105,10 @@ const Project = () => {
           </div>
 
           <div>
-            <a href="https://hungry-meninsky-f0a920.netlify.app/" target="_blank">
+            <a
+              href="https://hungry-meninsky-f0a920.netlify.app/"
+              target="_blank"
+            >
               <img className="projectImage" src={dotaSimon} />
             </a>
           </div>
