@@ -22,7 +22,7 @@ const About = () => {
         <p>
           Hello World, I'm Pourya Dehghan a passionate full stack developer.
           I started my coding journey two years ago, I feel really lucky that my job
-          is my biggest hobbies. I'm eager to make the leap and continue refining my skills
+          is my biggest hobby. I'm eager to make the leap and continue refining my skills
           with the right company.
         </p>
         <div className="skills">

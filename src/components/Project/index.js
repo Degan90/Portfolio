@@ -23,7 +23,7 @@ const Project = () => {
             <h2>Denj</h2>
             <div className="projectDes">
               <h5>
-                This is a full stack mobile application that i created it with
+                This is a full stack mobile application that i created with
                 React Native. This application is about cozy places that users
                 have been and they want to share with other people.
               </h5>
@@ -47,7 +47,7 @@ const Project = () => {
               <h5>
                 This is the full stack appliacation that we created as a group.
                 This is a online application for discussions on a forum based on
-                topics and decriptions. Each forum has their own posts which is
+                topics and decriptions. Each forum has their own and is
                 fully functional.
               </h5>
               <div>
@@ -68,7 +68,7 @@ const Project = () => {
             <h2>Dota2 Heroes</h2>
 
             <h5>
-              My App is called Dota2 Heroes It's an app that shows the all the
+              My App is called Dota2 Heroes It's an app that shows the all
               Dota 2 heroes and if you click on hero gives you the detail and
               attributes of that hero.
             </h5>
@@ -93,8 +93,8 @@ const Project = () => {
 
             <h5>
               This is a Simon game which players must repeat random sequences of
-              button by clicking the buttons in corretct order. The diffrences
-              between this game and the other simon games are i used the Dota 2
+              by clicking the buttons in correct order. The diffrences
+              between this game and the other Simon games are that I used the Dota 2
               characters's images and sounds to make it more interesting.
             </h5>
             <div>
