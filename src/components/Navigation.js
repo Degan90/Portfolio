@@ -23,11 +23,11 @@ function Navigation(props) {
               <LinkContainer to="/projects">
                 <Nav.Link>Projects</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/contact">
+              {/* <LinkContainer to="/contact">
                 <Nav.Link>Contact</Nav.Link>
-              </LinkContainer>
+              </LinkContainer> */}
 
-              <Button className="btnNav" variant="outline-success" href={pdf}>
+              <Button className="btnNav" variant="outline-success" target="_blank" href={pdf}>
                 Resume
               </Button>
             </Nav>
