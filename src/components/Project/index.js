@@ -1,8 +1,6 @@
-import background from "../img/background.jpg";
 import heroes from "../img/heroes.jpg";
 import dotaSimon from "../img/dotaSimon.png";
 import project3 from "../img/project3.png";
-import Carousel from "react-bootstrap/Carousel";
 import { useState } from "react";
 import greengh from "../img/greengh.png";
 import denj from "../img/denj.png";
@@ -23,7 +21,7 @@ const Project = () => {
             <h2>Denj</h2>
             <div className="projectDes">
               <h5>
-                This is a full stack mobile application that i created with
+                This is a full stack mobile application that I created with
                 React Native. This application is about cozy places that users
                 have been and they want to share with other people.
               </h5>
@@ -46,7 +44,7 @@ const Project = () => {
             <div className="projectDes">
               <h5>
                 This is the full stack appliacation that we created as a group.
-                This is a online application for discussions on a forum based on
+                This is an online application for discussions on a forum based on
                 topics and decriptions. Each forum has their own and is
                 fully functional.
               </h5>
@@ -68,8 +66,8 @@ const Project = () => {
             <h2>Dota2 Heroes</h2>
 
             <h5>
-              My App is called Dota2 Heroes It's an app that shows the all
-              Dota 2 heroes and if you click on hero gives you the detail and
+              My App is called Dota2 Heroes. It's an app that shows the all
+              Dota2 Heroes and if you click on hero it gives you the detail and
               attributes of that hero.
             </h5>
             <div>
