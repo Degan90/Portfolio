@@ -188,6 +188,8 @@ label {
 .name {
   font-size: 80px;
   font-family: "Fjalla One", sans-serif;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 .job {
   font-size: 60px;
