@@ -548,7 +548,7 @@ margin-left: 10%;
     width: 80%;
     margin: auto;
     margin-bottom: 50px;
-    margin-top: 35%;
+    margin-top: 15%;
     color: rgb(128, 249, 168);
   }
 
@@ -620,7 +620,7 @@ margin-left: 10%;
   .information {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 50%;
+    width: 80%;
     padding-bottom: 30px;
     border-bottom: 2px solid white;
   }
@@ -661,6 +661,7 @@ margin-left: 10%;
   .name {
     font-size: 30px;
     font-family: "Fjalla One", sans-serif;
+    padding-top: 3%;
   }
   .job {
     font-size: 25px;
