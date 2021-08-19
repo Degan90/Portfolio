@@ -45,7 +45,7 @@ const Project = () => {
               <h5>
                 This is the full stack appliacation that we created as a group.
                 This is an online application for discussions on a forum based on
-                topics and decriptions. Each forum has their own and is
+                topics and descriptions. Each forum has their own and is
                 fully functional.
               </h5>
               <div>
@@ -91,9 +91,9 @@ const Project = () => {
 
             <h5>
               This is a Simon game which players must repeat random sequences of
-              by clicking the buttons in correct order. The diffrences
+              by clicking the buttons in correct order. The differences
               between this game and the other Simon games are that I used the Dota 2
-              characters's images and sounds to make it more interesting.
+              character's images and sounds to make it more interesting.
             </h5>
             <div>
               <a href="https://github.com/Degan90/Simon-Dota.git">
