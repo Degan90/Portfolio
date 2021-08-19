@@ -3,15 +3,48 @@ import email from "../img/email.png";
 import github from "../img/github.png";
 import { Button } from "react-bootstrap";
 import pdf from "../PDF/Resume.PDF";
+import { motion } from "framer-motion";
+
 const Home = () => {
+  const fadeLeft = {
+    hidden: { opacity: 0, x: -100 },
+    visible: { opacity: 1, x: 0 },
+  };
   return (
     <div>
       <div className="home">
         <div className="title">
           <div>
-            <h3 className="myName">Hi , my name is</h3>
-            <h1 className="name">Pourya Dehghan</h1>
-            <h1 className="job">I build things for the web.</h1>
+            
+            <motion.h3
+              variants={fadeLeft}
+              initial="hidden"
+              animate="visible"
+              transition={{ duration: .5 }}
+              className="myName"
+            >
+              Hi , my name is
+            </motion.h3>
+            {/* <h1 className="name">Pourya Dehghan</h1> */}
+            <motion.h1
+              variants={fadeLeft}
+              initial="hidden"
+              animate="visible"
+              transition={{ duration: 1 }}
+              className="name"
+            >
+              Pourya Dehghan
+            </motion.h1>
+            <motion.h1
+              className="job"
+              variants={fadeLeft}
+              initial="hidden"
+              animate="visible"
+              transition={{ duration: 2 }}
+            >
+              I build things for the web.
+            </motion.h1>
+            {/* <h1 className="job">I build things for the web.</h1> */}
           </div>
           <div className="information">
             <div>
@@ -31,7 +64,12 @@ const Home = () => {
               </a>
             </div>
             <div className="btnHome">
-              <Button variant="outline-success" target="_blank" href="/resume" href={pdf}>
+              <Button
+                variant="outline-success"
+                target="_blank"
+                href="/resume"
+                href={pdf}
+              >
                 R
               </Button>
             </div>
