@@ -10,6 +10,7 @@ import dj from "../img/dj.png";
 import github from "../img/githubicon.png";
 import bt from "../img/bt.png";
 import mdb from "../img/mdb.png";
+import docker from "../img/docker.png";
 import psql from "../img/psql.png";
 import pourya from "../img/pourya.jpg";
 import { motion } from "framer-motion";
@@ -113,6 +114,15 @@ const About = () => {
                 className="aboutIcon"
                 src={github}
               />
+                <motion.img
+                  whileTap={{ scale: 0.8 }}
+                  
+                  dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
+                  initial={{ opacity: 0, x: -100 }}
+                  animate={{ opacity: 1, x: 0, transition: { duration: 6 } }}
+                  className="aboutIcon"
+                  src={docker}
+                />
               <motion.img
                 whileTap={{ scale: 0.8 }}
                 
@@ -148,15 +158,6 @@ const About = () => {
                 animate={{ opacity: 1, x: 0, transition: { duration: 5.5 } }}
                 className="aboutIcon"
                 src={ps}
-              />
-              <motion.img
-                whileTap={{ scale: 0.8 }}
-                
-                dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
-                initial={{ opacity: 0, x: -100 }}
-                animate={{ opacity: 1, x: 0, transition: { duration: 6 } }}
-                className="aboutIcon"
-                src={lr}
               />
               {/* <img className="aboutIcon" src={github} />
               <img className="aboutIcon" src={bt} />
