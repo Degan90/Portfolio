@@ -10,12 +10,12 @@ import Navigation from "./components/Navigation";
 
 import Project from "./components/Project";
 
-import ScrollToTop from "./components/ScrollToTop";
+
 
 function App() {
   return (
     <>
-      <ScrollToTop />
+      
       <Navigation />
       
         {/* <Home />

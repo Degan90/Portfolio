@@ -1,9 +1,9 @@
 import linkedin from "../img/linkedin.png"
 import email from "../img/email.png"
-import phone from "../img/phone.png"
+
 import github from "../img/github.png"
 
-import Form from "../Form"
+
 const Contact = () => {
     return (
 
