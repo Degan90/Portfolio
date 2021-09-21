@@ -26,11 +26,15 @@ const About = () => {
       <div></div>
       <div className="aboutDes">
         <p>
-          Hello World, I'm Pourya Dehghan a passionate full stack developer with the 
-          background of petrochemical engineering educations and designing experience. 
-          I feel really lucky that my
-          job is my biggest hobby. I'm eager to make the leap and continue
-          refining my skills with the right company.
+          Hello World, I'm Pourya Dehghan a passionate full stack developer with a 
+          background of petrochemical engineering education and design. 
+          My favorite part of coding is designing a mobile app or website,
+           and I have a keen eye for design.
+             My previous work in disign and photography industry helps me figure out where things belong online;
+              I want to make beautiful user experiences so that anyone can enjoy the web.
+               I'm eager to make the leap into
+             full stack and continue refining my skills with the right company and team.
+
         </p>
         <div className="skills">
           <div>
