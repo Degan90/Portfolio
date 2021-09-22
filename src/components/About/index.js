@@ -29,8 +29,9 @@ const About = () => {
           Hello World, I'm Pourya Dehghan a passionate full stack developer with a 
           background of petrochemical engineering education and design. 
           My favorite part of coding is designing a mobile app or website,
-           and I have a keen eye for design.
-             My previous work in disign and photography industry helps me figure out where things belong online;
+           and I have a keen eye for design. Most exiting moment for me is debugging and solving the bugs and 
+           finally I can use the mathematic and algorithm that I learned in university.
+             My previous work in design and photography industry helps me figure out where things belong online;
               I want to make beautiful user experiences so that anyone can enjoy the web.
                I'm eager to make the leap into
              full stack and continue refining my skills with the right company and team.
