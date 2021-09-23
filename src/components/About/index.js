@@ -26,16 +26,16 @@ const About = () => {
       <div></div>
       <div className="aboutDes">
         <p>
-          Hello World, I'm Pourya Dehghan a passionate full stack developer with a 
-          background of petrochemical engineering education and design. 
-          My favorite part of coding is designing a mobile app or website,
-           and I have a keen eye for design. Most exiting moment for me is debugging and solving the bugs and 
-           finally I can use the mathematic and algorithm that I learned in university.
-             My previous work in design and photography industry helps me figure out where things belong online;
-              I want to make beautiful user experiences so that anyone can enjoy the web.
-               I'm eager to make the leap into
-             full stack and continue refining my skills with the right company and team.
-
+          Hello World, I'm Pourya Dehghan a passionate full stack developer with
+          a background of petrochemical engineering education and design. My
+          favorite part of coding is designing a mobile app or website, and I
+          have a keen eye for design. The most exiting moment for me is
+          debugging and squashing bugs, especially when I can use the mathematic
+          and algorithmic backgrounds that I learned in university. My previous
+          work in design and photography industry helps me figure out where
+          things belong online; I want to make beautiful user experiences so
+          that anyone can enjoy the web. I'm eager to make the leap into full
+          stack and continue refining my skills with the right company and team.
         </p>
         <div className="skills">
           <div>
@@ -47,7 +47,6 @@ const About = () => {
             <div className="firstInfo">
               <motion.img
                 whileTap={{ scale: 0.8 }}
-                
                 dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, transition: { duration: 0.5 } }}
@@ -56,7 +55,6 @@ const About = () => {
               />
               <motion.img
                 whileTap={{ scale: 0.8 }}
-                
                 dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, transition: { duration: 1 } }}
@@ -65,7 +63,6 @@ const About = () => {
               />
               <motion.img
                 whileTap={{ scale: 0.8 }}
-                
                 dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, transition: { duration: 1.5 } }}
@@ -74,8 +71,6 @@ const About = () => {
               />
               <motion.img
                 whileTap={{ scale: 0.8 }}
-                
-                
                 dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, transition: { duration: 2 } }}
@@ -84,7 +79,6 @@ const About = () => {
               />
               <motion.img
                 whileTap={{ scale: 0.8 }}
-                
                 dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, transition: { duration: 2.5 } }}
@@ -93,7 +87,6 @@ const About = () => {
               />
               <motion.img
                 whileTap={{ scale: 0.8 }}
-                
                 dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, transition: { duration: 3 } }}
@@ -111,26 +104,22 @@ const About = () => {
             <div>
               <motion.img
                 whileTap={{ scale: 0.8 }}
-                
-                
                 dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, transition: { duration: 3.5 } }}
                 className="aboutIcon"
                 src={github}
               />
-                <motion.img
-                  whileTap={{ scale: 0.8 }}
-                  
-                  dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
-                  initial={{ opacity: 0, x: -100 }}
-                  animate={{ opacity: 1, x: 0, transition: { duration: 6 } }}
-                  className="aboutIcon"
-                  src={docker}
-                />
               <motion.img
                 whileTap={{ scale: 0.8 }}
-                
+                dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0, transition: { duration: 6 } }}
+                className="aboutIcon"
+                src={docker}
+              />
+              <motion.img
+                whileTap={{ scale: 0.8 }}
                 dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, transition: { duration: 4 } }}
@@ -139,7 +128,6 @@ const About = () => {
               />
               <motion.img
                 whileTap={{ scale: 0.8 }}
-                
                 dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, transition: { duration: 4.5 } }}
@@ -148,7 +136,6 @@ const About = () => {
               />
               <motion.img
                 whileTap={{ scale: 0.8 }}
-                
                 dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, transition: { duration: 5 } }}
@@ -157,7 +144,6 @@ const About = () => {
               />
               <motion.img
                 whileTap={{ scale: 0.8 }}
-                
                 dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, transition: { duration: 5.5 } }}
