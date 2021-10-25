@@ -10,26 +10,16 @@ import Navigation from "./components/Navigation";
 
 import Project from "./components/Project";
 
-
-
 function App() {
   return (
     <>
-      
       <Navigation />
-      
-        {/* <Home />
-        <About />
-        <Project />
-        <Contact />
-      */}
 
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/projects" component={Project} />
         {/* <Route path="/contact" component={Contact} /> */}
         <Route path="/about" component={About} />
-        
       </Switch>
     </>
   );
