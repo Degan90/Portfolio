@@ -2,7 +2,7 @@ import linkedin from "../img/linkedin.png";
 import email from "../img/email.png";
 import github from "../img/github.png";
 import { Button } from "react-bootstrap";
-import pdf from "../PDF/Resume.PDF";
+import pdf from "../PDF/resume(updated).pdf";
 import { motion } from "framer-motion";
 
 const Home = () => {
