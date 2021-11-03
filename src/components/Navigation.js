@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import pdf from "../PDF/resume(updated).pdf";
+import pdf from "./PDF/resume(updated).pdf"
 
 function Navigation(props) {
   return (
