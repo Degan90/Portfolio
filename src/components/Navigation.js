@@ -23,9 +23,7 @@ function Navigation(props) {
               <LinkContainer to="/projects">
                 <Nav.Link>Projects</Nav.Link>
               </LinkContainer>
-              {/* <LinkContainer to="/contact">
-                <Nav.Link>Contact</Nav.Link>
-              </LinkContainer> */}
+     
 
               <Button className="btnNav" variant="outline-success" target="_blank" href={pdf}>
                 Resume
